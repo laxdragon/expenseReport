@@ -1,0 +1,32 @@
+.light-theme {
+    --bg-color: rgb(218, 227, 242);
+    --primary-color: #0d0d0d;
+    --secondary-color: #1a1a1a;
+}
+
+.dark-theme {
+    --bg-color: rgb(20, 24, 31);
+    --primary-color: #ccc;
+    --secondary-color: #ddd;
+}
+
+.input-group-text {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.btn {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#attTable td { padding: 1em; }
+#attTable td.attThumb { width: 100px; }
+#attTable td.attThumb img { max-width: 80px; }
+#attTable td.attDesc { width: 100%; }
+#attTable tr:first-child td { border-top: none; }

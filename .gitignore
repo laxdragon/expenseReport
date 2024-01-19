@@ -1,0 +1,10 @@
+config.yaml
+include/
+.htaccess
+.well-known
+.vscode
+**/.DS_Store
+**/.TemporaryItems
+**/.apdisk
+**/._*
+**/.fuse_*
